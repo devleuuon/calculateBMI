@@ -43,5 +43,15 @@ close.onclick = () => {
     wrapper.classList.remove('open')
 }
 
+//Remover Alert Error quando começar a digitar no input
+
+weight.oninput = () => {
+    alertError.classList.remove('open')
+}
+
+height.oninput = () => {
+    alertError.classList.remove('open')
+}
+
 
 
